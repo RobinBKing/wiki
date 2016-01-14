@@ -19,14 +19,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Wiki</a>
+          <a class="navbar-brand" href="index.html">Wiki</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
+            <li><a href="git.html">Link</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HTML <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -74,7 +74,25 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <h1>What is?</h1>
-    <p></p>
+    <div class="container">
+      <h1>What are blocks?</h1>
+      <img src="img/block.png">
+      <p>The first thing we need to learn is how to make simple web pages using HTML, which stands for HyperText Markup Language. HyperText is a nerdy word for a link, a markup language is a language that lets you insert instructions within the text that you write, and HTML is the language web browsers translate into the web pages you see on your screen. Now, we're going to start writing our first HTML!
+      </p>
+      <p>With my-first-webpage.html open in a text editor, let's start by typing the following code. Don't type the my-first-webpage.html bit at the top - that's just telling you what file the following code goes in.
+      </p>
+      <p>
+        Here we've added an unordered list (<xmp><ul></xmp>)with four list items (<xmp><li></xmp>). If we wanted to make an ordered list that uses numbers and letters instead of bullets, we would use an <xmp><ol></xmp> tag instead of a <xmp><ul></xmp>.
+        </p>
+        <p>Notice how I've indented the <xmp><li></xmp>s within the <xmp><ul></xmp>s. This makes it much easier to read which tags are nested, and makes it easy to see where the closing tag goes when it's not on the same line. It's a good practice to indent using two spaces (tabs are often rendered as different widths, whereas spaces are standard). It's also a good idea to write your closing tag just after you write your opening tag, and then go back and fill in whatever comes in the middle. This way, you won't forget to close a tag after you've opened it.
+        </p>
+        <p>We just have a couple last things to add to make this a valid HTML web page:
+        </p>The <!DOCTYPE html> tag tells the browser that this document contains HTML, and specifically that it contains the newest version of HTML, HTML5. (An example of a doctype for an older version of HTML is <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">.)
+        <p>The <xmp><head></xmp> tag contains information about the page, which for now is just the <xmp><title></xmp> tag. And the <xmp><title> tag sets the title for the web page - if you look in your browser, you can see that the title of the window is now Hello world!.</p>
+        <p>Finally, the actual content of the page is now wrapped in a <xmp><body></xmp> tag.
+        </p>
+        <p>
+</p>
+    </div>
   </body>
 </html>

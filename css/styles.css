@@ -1,9 +1,35 @@
+.homepage {
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+}
+
+.concepts {
+  list-style-type: none;
+  font-size: 20px;
+}
+
 .jumbotron {
   text-align: center;
   height: 300px;
+    margin: 0px;
 }
 
 .jumbotron img {
-  height: 100%;
-  width: auto;
+  /*height: 300px;
+  width: 100%;*/
+
+
+
+}
+.carousel-caption {
+  color: black;
+}
+
+.item {
+  height: 250px;
+    width: auto;
+  align-items: center;
 }
