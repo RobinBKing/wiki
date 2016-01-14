@@ -1,0 +1,9 @@
+.jumbotron {
+  text-align: center;
+  height: 300px;
+}
+
+.jumbotron img {
+  height: 100%;
+  width: auto;
+}

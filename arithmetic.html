@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML</title>
+    <link rel="stylesheet" href="css/styles.css"></link>
+    <link rel="stylesheet" href="css/Bootstrap.min.css"></link>
+    <link rel="stylesheet" href="css/Bootstrap-theme.css"></link>
+    <script src="js/jQuery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Wiki</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HTML <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="block.html">Block Elements</a></li>
+                <li><a href="inline.html">Inline Elements</a></li>
+                <li><a href="divsSpans.html">Divs and Spans</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="html.html">What is HTML?</a></li>
+                <li><a href="markdown.html">Markdown</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CSS <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="box.html">Box Model</a></li>
+                <li><a href="cascadingStyles.html">Cascading Styles</a></li>
+                <li><a href="responsive.html">Responsive Design</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="bootstrap.html">Bootstrap</a></li>
+                  <ul>
+                    <li><a href="floats.html">Floats</a></li>
+                    <li><a href="grid.html">Grid System</a></li>
+                    <li><a href="forms.html">Forms</a></li>
+                  </ul>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Javascript <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="arithmetic.html">JS arithmetic</a></li>
+                <li><a href="variables.html">Variables</a></li>
+                <li><a href="methods.html">Methods</a></li>
+                <li><a href="functions.html">Fuctions</a></li>
+                <li><a href="strings.html">Strings</a></li>
+                <li><a href="dom.html">DOM Manipulation and Traversal</a></li>
+                <li><a href="attributes.html">Attributes</a></li>
+                <li><a href="branching.html">Branching</a></li>
+                <li><a href="arrays.html">Arrays</a></li>
+                <li><a href="looping.html">Looping</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="jquery.html">jQuery</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  <div class="container">
+    <h1>What is JS arithmetic?</h1>
+      <p>One of the great and terrible things about JavaScript is that there are many, many different ways to do the same thing. As you're learning JavaScript, I'd strongly recommend picking one resource (website/book/video series/etc) and sticking with it - hopefully, this site! Otherwise, you risk becoming confused with all of the different approaches.</p>
+      <br></br>
+      <p>Now that you have the basics of HTML and CSS under your belt, we're going to start learning our first programming language: JavaScript. Remember, web browsers can only do three things: display content with HTML, style it with CSS, and change what's displayed with JavaScript. Because all browsers support JavaScript, it's the de facto programming language of the web.</p>
+      <br></br>
+      <p>We're going to take a detour away from the aesthetically pleasing and obviously useful world of web pages, so that we can learn some programming fundamentals. But don't worry! We'll be back in no time.</p>
+      <br></br>
+      <p>Like earlier, I'm going to assume you're using Google Chrome for these lessons. Chrome includes a nice little console that lets you type in JavaScript code. To access it, click on the ☰ button, go to the <em>More Tools</em> menu, and click <em>Developer Tools</em>. Go to the <em>Console</em> tab on the window that pops up at the bottom of the screen. As a shortcut, you can also press <em>Cmd + Alt + J</em> on a Mac or <em>Ctrl + Alt + J</em> on a PC.</p>
+      <br></br>
+      <p>The semicolon at the end of the line tells JavaScript to run everything before it. You'd think JavaScript would know on its own, wouldn't you?</p>
+      <br></br>
+      <p>Now try these:</p>
+      <ul>
+        <li><p>4 - 3;</p></li>
+        <li><p>5 * 6;</p></li>
+        <li><p>10 / 2;</p></li>
+        <li><p>9 / 2;</p></li>
+        <li><p>7 + 8 * 9;</p></li>
+        <li><p>(7 + 8) * 9;</p></li>
+      </ul>
+      <br></br>
+      <p>Try some other arithmetic yourself. Play around with the <strong>modulo</strong>. It will give you the remainder of dividing two numbers. Don't be fooled into thinking it has something to do with percentages!</p>
+      <br></br>
+      <p>+, -, and * are called <strong>operators</strong>. An operator is a special character (or characters) that indicates an action to be performed.</p>
+      <br></br>
+      <p>Try dividing 0 by 0. The result, NaN, stands for <em>not a number</em>. In JavaScript, NaN is actually considered a type of number (bizarre as that may seem).</p>
+      <br></br>
+      <p>Try dividing any other number by 0. The result, Infinity, is also a number in JavaScript.</p>
+    </div>
+  </body>
+</html>
